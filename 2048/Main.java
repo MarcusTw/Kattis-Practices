@@ -1,16 +1,6 @@
 import java.util.*;
 
 class Main {
-    public static int[][] makeMatrix() {
-        int[][] res = new int[4][4];
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
-                res[i][j] = new Scanner(System.in).nextInt();
-            }
-        }
-        return res;
-    }
-
     public static int[][] mergeLeft(int[][] mat) {
         int[][] res = new int[4][4];
         for (int i = 0; i < 4; i++) {
